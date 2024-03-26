@@ -63,6 +63,63 @@ g.add_edge(2, 0)
 g.add_edge(2, 3)
 g.add_edge(3, 3)
 
+# Code
+
+```python
+from collections import defaultdict
+
+class Graph():
+    def __init__(self):
+        self.graph = defaultdict(list)
+        
+    def add_edge(self,u,v):
+        self.graph[u].append(v)
+    
+    def print_graph(self):
+        print(self.graph)
+
+def solve_dfs(val,visited,graph):
+    visited[val] = True
+    print(val,end=' ')
+    for i in graph[val]:
+        if not visited[i]:
+            solve_dfs(i,visited,graph)
+            
+def dfs(val,graph):
+    visited = [False]*len(graph)
+    solve_dfs(val,visited,graph)
+    
+
+def bfs(val,graph):
+    visited = [False]*len(graph)
+    q = []
+    q.append(val)
+    visited[val]=True
+    while q:
+        val = q.pop(0)
+        print(val,end=' ')
+        for i in graph[val]:
+            if not visited[i]:
+                q.append(i)
+                visited[i]=True
+    
+# Example usage:
+g = Graph()
+g.add_edge(0, 1)
+g.add_edge(0, 2)
+g.add_edge(1, 2)
+g.add_edge(2, 0)
+g.add_edge(2, 3)
+g.add_edge(3, 3)
+
+g.print_graph()
+dfs(2,g.graph)
+print()
+bfs(2,g.graph)
+
+    
+```
+
 print("DFS Traversal:")
 g.dfs(2)  # Output: 2 0 1 3
 print("\nBFS Traversal:")

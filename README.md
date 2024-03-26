@@ -118,9 +118,9 @@ g.add_edge(2, 0)
 g.add_edge(2, 3)
 g.add_edge(3, 3)
 
-g.print_graph()
-dfs(2,g.graph)
+g.print_graph() # defaultdict(<class 'list'>, {0: [1, 2], 1: [2], 2: [0, 3], 3: [3]})
+dfs(2,g.graph) # 2 0 1 3 
 print()
-bfs(2,g.graph)
+bfs(2,g.graph) # 2 0 3 1 
 
 ```

@@ -63,6 +63,12 @@ g.add_edge(2, 0)
 g.add_edge(2, 3)
 g.add_edge(3, 3)
 
+print("DFS Traversal:")
+g.dfs(2)  # Output: 2 0 1 3
+print("\nBFS Traversal:")
+g.bfs(2)  # Output: 2 0 3 1
+```
+
 # Code
 
 ```python
@@ -116,13 +122,5 @@ g.print_graph()
 dfs(2,g.graph)
 print()
 bfs(2,g.graph)
-
-    
-```
-
-print("DFS Traversal:")
-g.dfs(2)  # Output: 2 0 1 3
-print("\nBFS Traversal:")
-g.bfs(2)  # Output: 2 0 3 1
 
 ```

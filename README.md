@@ -42,7 +42,20 @@ def solve_dfs(val,visited,graph):
 def dfs(val,graph):
     visited = [False]*len(graph)
     solve_dfs(val,visited,graph)
-    
+
+def dfs(start_node, graph):
+    stack = [start_node]
+    visited = [False] * len(graph)
+    visited[start_node] = True
+
+    while stack:
+        current_node = stack.pop()
+        print(current_node, end=' ')
+
+        for neighbor in graph[current_node]:
+            if not visited[neighbor]:
+                stack.append(neighbor)
+                visited[neighbor] = True
 
 def bfs(val,graph):
     visited = [False]*len(graph)

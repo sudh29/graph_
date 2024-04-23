@@ -19,19 +19,6 @@ class Graph:
                 print("(", v, ",", dist, ")", end=' ')
             print()
 
-
-
-
-
-        for node in self.adjlist:
-            print("distance to", node, "from", src, "is", distance[node])
-
-        temp = 'g'
-        while parent[temp] != temp:
-            print(temp, "<--", end=' ')
-            temp = parent[temp]
-        print(src)
-
 if __name__ == "__main__":
     g = Graph()
     g.add_edge('0', '1', 4, False)

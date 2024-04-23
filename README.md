@@ -4,7 +4,7 @@
 
 [1 Create Graph](1_Create_Graph.py)
 
-[Example File](example.md)
+[2 Implement BFS algorithm](2_Implement_BFS_algorithm.py)
 
 [Example File](example.md)
 

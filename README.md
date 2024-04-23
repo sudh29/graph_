@@ -1,4 +1,21 @@
-# Graph
+# Graph Problems
+
+[Example File](example.md)
+
+[Example File](example.md)
+
+[Example File](example.md)
+
+[Example File](example.md)
+
+[Example File](example.md)
+
+[Example File](example.md)
+
+[Example File](example.md)
+
+[Example File](example.md)
+
 
 In a graph, Depth First Search (DFS) and Breadth First Search (BFS) algorithms are used to traverse the nodes. Here's how they work:
 

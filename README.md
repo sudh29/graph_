@@ -6,7 +6,7 @@
 
 [2 Implement BFS algorithm](2_Implement_BFS_algorithm.py)
 
-[Example File](example.md)
+[3 Implement DFS Algo](3_Implement_DFS_Algo.py)
 
 [Example File](example.md)
 

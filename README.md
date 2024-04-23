@@ -1,8 +1,8 @@
 # Graph Problems
 
-[Example File](example.md)
+[0 Create Graph print](0_Create_Graph_print.py)
 
-[Example File](example.md)
+[1 Create Graph](1_Create_Graph.py)
 
 [Example File](example.md)
 

@@ -8,7 +8,7 @@
 
 [3 Implement DFS Algo](3_Implement_DFS_Algo.py)
 
-[Example File](example.md)
+[4 Detect Cycle Directed Graph](4_Detect_Cycle_Directed_Graph.py)
 
 [5 Detect Cycle UnDirected Graph](5_Detect_Cycle_UnDirected_Graph.py)
 

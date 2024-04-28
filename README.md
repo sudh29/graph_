@@ -12,6 +12,18 @@
 
 [5 Detect Cycle UnDirected Graph](5_Detect_Cycle_UnDirected_Graph.py)
 
+[6 Search in a Maze](6_Search_in_Maze.py)
+
+[Example File](example.md)
+
+[Example File](example.md)
+
+[Example File](example.md)
+
+[Example File](example.md)
+
+[Example File](example.md)
+
 [Example File](example.md)
 
 [Example File](example.md)

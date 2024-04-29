@@ -14,7 +14,7 @@
 
 [6 Search in a Maze](6_Search_in_Maze.py)
 
-[Example File](example.md)
+[7 Minimum Step by Knight](7_Minimum_Step_by_Knight.py)
 
 [Example File](example.md)
 

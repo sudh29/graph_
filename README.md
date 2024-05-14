@@ -34,7 +34,7 @@
 
 [16 Find the no of lands](16_Find_the_no_of_slands.py)
 
-[Example File](example.md)
+[36 M-Colouring Problem](36_M-Colouring_Problem.py)
 
 
 In a graph, Depth First Search (DFS) and Breadth First Search (BFS) algorithms are used to traverse the nodes. Here's how they work:

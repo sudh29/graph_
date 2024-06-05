@@ -30,6 +30,8 @@
 
 [Example File](example.md)
 
+[14 Minimum time taken job completed Directed Acyclic Graph](14_Minimum_time_taken_job_completed_Directed_Acyclic_Graph.py)
+
 [Example File](example.md)
 
 [16 Find the no of lands](16_Find_the_no_of_slands.py)

@@ -36,6 +36,8 @@
 
 [16 Find the no of lands](16_Find_the_no_of_slands.py)
 
+[18 Implement Kruskals Algorithm](18_Implement_Kruskals_Algorithm.py)
+
 [36 M-Colouring Problem](36_M-Colouring_Problem.py)
 
 
